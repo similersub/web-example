@@ -1,0 +1,8 @@
+#main > p {
+	text-align: center;
+	color: red;
+	background-color: skyblue;
+	& > span::after {
+		content: "正解!!";
+	}
+}
